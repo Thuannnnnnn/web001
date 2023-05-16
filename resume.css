@@ -1,0 +1,52 @@
+/* Write CSS Here */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Rosario', sans-serif;
+	background-image: linear-gradient(to right, #CCFBFF, #ef96c5 );
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+img{
+    border-radius: 50%;
+}
+.Contact{
+    font-size: 15px;
+}
+table,th, td{
+    padding:10px ;
+}
+.full {
+	width: 50%;
+	max-width: 1000px;
+	min-height: 100px;
+	background-color: rgb(245, 239, 231);
+	margin: 0px;
+	display: grid;
+	grid-template-columns: 2fr 4fr;
+}
+.left {
+	position: initial;
+	background-image: linear-gradient(to right,#b3e7ff, #ffffff);
+	padding: 20px;
+
+}
+.right {
+	position: initial;
+    background-color: white;
+	background-image: linear-gradient(to right,#ffffff,#b3e7ff ); 
+	padding: 20px;
+
+}
+.image, .Contact, .Skills, .Language, .Hobbies, .title,
+.Summary, .Experience, .Education, .project {
+	margin-bottom: 30px;
+}
+.h2 {
+	background-color: rgb(4, 96, 150);
+}
